@@ -1,0 +1,964 @@
+body {
+  background-color: #F8E4E8;
+}
+.Logo {
+  height: 4rem;
+  width: 9rem;
+}
+.bg-dark {
+  background-color: #F27A9C !important;
+}
+.navbar-brand {
+  padding: 0.5rem;
+}
+.nav {
+  padding: 0rem;
+  position: fixed !important;
+  width: 100%;
+}
+.navbar {
+  padding: 0rem;
+  position: fixed !important;
+  width: 100%;
+}
+.nav-links {
+  display: block;
+  padding: 0.5rem 0.5rem;
+  color: #FAD0D9 !important;
+  text-decoration: none;
+  margin-top: 0.57rem;
+}
+.nav-link {
+  margin-top: -0.25rem;
+}
+h1 {
+  font-family: "Recursive", sans-serif;
+  text-align: center;
+  margin: 6rem 0 0 0;
+  font-size: 4rem;
+  color:#B9A9DC;
+}
+.Choice:hover {
+  background-color: #F27A9C;
+  color: #FAD0D9;
+}
+
+.pillar {
+  height: 40rem;
+  display: block;
+  float: left;
+  margin: 6% 0 0 0%;
+  position: fixed;
+}
+.pillar1 {
+  height: 40rem;
+  display: block;
+  margin: 6% 0 0 5%;
+  position: fixed;
+}
+.Question {
+  font-family: "Recursive", sans-serif;
+  font-size: 2rem;
+  position: absolute;
+  bottom: -525%;
+  left: 16rem;
+  color:#B9A9DC;
+}
+.Question1 {
+  font-family: "Recursive", sans-serif;
+  font-size: 2rem;
+  position: absolute;
+  bottom: -300%;
+  left: 12rem;
+  color:#B9A9DC;
+}
+.Question2 {
+  font-family: "Recursive", sans-serif;
+  font-size: 2rem;
+  position: absolute;
+  bottom: -490%;
+  left: 12rem;
+  color:#B9A9DC;
+}
+.Question3 {
+  font-family: "Recursive", sans-serif;
+  font-size: 2rem;
+  position: absolute;
+  bottom: -420%;
+  left: 12rem;
+  color:#B9A9DC;
+}
+.Question4 {
+  font-family: "Recursive", sans-serif;
+  font-size: 2rem;
+  position: absolute;
+  bottom: -320%;
+  left: 12rem;
+  color:#B9A9DC;
+}
+.Question5 {
+  font-family: "Recursive", sans-serif;
+  font-size: 2rem;
+  position: absolute;
+  bottom: -370%;
+  left: 12rem;
+  color:#B9A9DC;
+}
+.Choice {
+  font-family: "Recursive", sans-serif;
+  border: none;
+  background-color: #F27A9C;
+  color: #FAD0D9;
+  text-align: center;
+  text-decoration: solid;
+  display: inline-block;
+  font-size: 1rem;
+  cursor: pointer;
+  position: absolute;
+  bottom: -430%;
+  width: 23%;
+  height: 120%;
+  right: 62%;
+}
+.Choice1 {
+  font-family: "Recursive", sans-serif;
+  border: none;
+  background-color: #F27A9C;
+  color: #FAD0D9;
+  text-align: center;
+  text-decoration: solid;
+  display: inline-block;
+  font-size: 1rem;
+  cursor: pointer;
+  position: absolute;
+  bottom: -430%;
+  width: 23%;
+  height: 120%;
+  right: 37%;
+}
+.Choice2 {
+  font-family: "Recursive", sans-serif;
+  border: none;
+  background-color: #F27A9C;
+  color: #FAD0D9;
+  text-align: center;
+  text-decoration: solid;
+  display: inline-block;
+  font-size: 1rem;
+  cursor: pointer;
+  position: absolute;
+  bottom: -430%;
+  width: 23%;
+  height: 120%;
+  right: 12%;
+}
+.Choice3 {
+  font-family: "Recursive", sans-serif;
+  border: none;
+  background-color: #F27A9C;
+  color: #FAD0D9;
+  text-align: center;
+  text-decoration: solid;
+  display: inline-block;
+  font-size: 1rem;
+  cursor: pointer;
+  position: absolute;
+  bottom: -580%;
+  width: 23%;
+  height: 40%;
+  right: 62%;
+}
+.Choice4 {
+  font-family: "Recursive", sans-serif;
+  border: none;
+  background-color: #F27A9C;
+  color: #FAD0D9;
+  text-align: center;
+  text-decoration: solid;
+  display: inline-block;
+  font-size: 1rem;
+  cursor: pointer;
+  position: absolute;
+  bottom: -580%;
+  width: 23%;
+  height: 40%;
+  right: 37%;
+}
+.Choice5 {
+  font-family: "Recursive", sans-serif;
+  border: none;
+  background-color: #F27A9C;
+  color: #FAD0D9;
+  text-align: center;
+  text-decoration: solid;
+  display: inline-block;
+  font-size: 1rem;
+  cursor: pointer;
+  position: absolute;
+  bottom: -580%;
+  width: 23%;
+  height: 40%;
+  right: 12%;
+}
+.Choice6 {
+  font-family: "Recursive", sans-serif;
+  border: none;
+  background-color: #F27A9C;
+  color: #FAD0D9;
+  text-align: center;
+  text-decoration: solid;
+  display: inline-block;
+  font-size: 1rem;
+  cursor: pointer;
+  position: absolute;
+  bottom: -610%;
+  width: 23%;
+  height: 120%;
+  right: 62%;
+}
+.Choice7 {
+  font-family: "Recursive", sans-serif;
+  border: none;
+  background-color: #F27A9C;
+  color: #FAD0D9;
+  text-align: center;
+  text-decoration: solid;
+  display: inline-block;
+  font-size: 1rem;
+  cursor: pointer;
+  position: absolute;
+  bottom: -610%;
+  width: 23%;
+  height: 120%;
+  right: 37%;
+}
+.Choice8 {
+  font-family: "Recursive", sans-serif;
+  border: none;
+  background-color: #F27A9C;
+  color: #FAD0D9;
+  text-align: center;
+  text-decoration: solid;
+  display: inline-block;
+  font-size: 1rem;
+  cursor: pointer;
+  position: absolute;
+  bottom: -610%;
+  width: 23%;
+  height: 120%;
+  right: 12%;
+}
+.Choice9 {
+    font-family: "Recursive", sans-serif;
+    border: none;
+    background-color: #F27A9C;
+    color: #FAD0D9;
+    text-align: center;
+    text-decoration: solid;
+    display: inline-block;
+    font-size: 1rem;
+    cursor: pointer;
+    position: absolute;
+    bottom: -35%;
+    width: 23%;
+    height: 5%;
+    right: 37%;
+    
+  }
+  .Choice10 {
+    font-family: "Recursive", sans-serif;
+    border: none;
+    background-color: #F27A9C;
+    color: #FAD0D9;
+    text-align: center;
+    text-decoration: solid;
+    display: inline-block;
+    font-size: 1rem;
+    cursor: pointer;
+    position: absolute;
+    bottom: -430%;
+    width: 23%;
+    height: 120%;
+    right: 62%;
+    padding-top: 1rem;
+  }
+  .Choice11 {
+    font-family: "Recursive", sans-serif;
+    border: none;
+    background-color: #F27A9C;
+    color: #FAD0D9;
+    text-align: center;
+    text-decoration: solid;
+    display: inline-block;
+    font-size: 1rem;
+    cursor: pointer;
+    position: absolute;
+    bottom: -430%;
+    width: 23%;
+    height: 120%;
+    right: 37%;
+    padding-top: 1rem;
+  }
+  .Choice12 {
+    font-family: "Recursive", sans-serif;
+    border: none;
+    background-color: #F27A9C;
+    color: #FAD0D9;
+    text-align: center;
+    text-decoration: solid;
+    display: inline-block;
+    font-size: 1rem;
+    cursor: pointer;
+    position: absolute;
+    bottom: -430%;
+    width: 23%;
+    height: 120%;
+    right: 12%;
+    padding-top: 1rem;
+  }
+  .Choice13 {
+    font-family: "Recursive", sans-serif;
+    border: none;
+    background-color: #F27A9C;
+    color: #FAD0D9;
+    text-align: center;
+    text-decoration: solid;
+    display: inline-block;
+    font-size: 1rem;
+    cursor: pointer;
+    position: absolute;
+    width: 40%;
+    height: 10%;
+    right: 37%;
+  }
+  .Choice14 {
+    font-family: "Recursive", sans-serif;
+    border: none;
+    background-color: #F27A9C;
+    color: #FAD0D9;
+    text-align: center;
+    text-decoration: solid;
+    display: inline-block;
+    font-size: 1rem;
+    cursor: pointer;
+    position: absolute;
+    bottom: -60%;
+    width: 23%;
+    height: 5%;
+    right: 37%;
+    
+  }
+  .Choice15 {
+    font-family: "Recursive", sans-serif;
+    border: none;
+    background-color: #F27A9C;
+    color: #FAD0D9;
+    text-align: center;
+    text-decoration: solid;
+    display: inline-block;
+    font-size: 1rem;
+    cursor: pointer;
+    position: absolute;
+    bottom: -540%;
+    width: 23%;
+    height: 120%;
+    right: 62%;
+    padding-top: 1rem;
+  }
+  .Choice16 {
+    font-family: "Recursive", sans-serif;
+    border: none;
+    background-color: #F27A9C;
+    color: #FAD0D9;
+    text-align: center;
+    text-decoration: solid;
+    display: inline-block;
+    font-size: 1rem;
+    cursor: pointer;
+    position: absolute;
+    bottom: -540%;
+    width: 23%;
+    height: 120%;
+    right: 37%;
+    padding-top: 1rem;
+  }
+  .Choice17 {
+    font-family: "Recursive", sans-serif;
+    border: none;
+    background-color: #F27A9C;
+    color: #FAD0D9;
+    text-align: center;
+    text-decoration: solid;
+    display: inline-block;
+    font-size: 1rem;
+    cursor: pointer;
+    position: absolute;
+    bottom: -540%;
+    width: 23%;
+    height: 120%;
+    right: 12%;
+    padding-top: 1rem;
+  }
+  .Choice18 {
+    font-family: "Recursive", sans-serif;
+    border: none;
+    background-color: #F27A9C;
+    color: #FAD0D9;
+    text-align: center;
+    text-decoration: solid;
+    display: inline-block;
+    font-size: 1rem;
+    cursor: pointer;
+    position: absolute;
+    bottom: -450%;
+    width: 23%;
+    height: 120%;
+    right: 62%;
+    padding-top: 1rem;
+  }
+  .Choice19 {
+    font-family: "Recursive", sans-serif;
+    border: none;
+    background-color: #F27A9C;
+    color: #FAD0D9;
+    text-align: center;
+    text-decoration: solid;
+    display: inline-block;
+    font-size: 1rem;
+    cursor: pointer;
+    position: absolute;
+    bottom: -450%;
+    width: 23%;
+    height: 120%;
+    right: 37%;
+    padding-top: 1rem;
+  }
+  .Choice20 {
+    font-family: "Recursive", sans-serif;
+    border: none;
+    background-color: #F27A9C;
+    color: #FAD0D9;
+    text-align: center;
+    text-decoration: solid;
+    display: inline-block;
+    font-size: 1rem;
+    cursor: pointer;
+    position: absolute;
+    bottom: -450%;
+    width: 23%;
+    height: 120%;
+    right: 12%;
+    padding-top: 1rem;
+  }
+  .Choice21 {
+    font-family: "Recursive", sans-serif;
+    border: none;
+    background-color: #F27A9C;
+    color: #FAD0D9;
+    text-align: center;
+    text-decoration: solid;
+    display: inline-block;
+    font-size: 1rem;
+    cursor: pointer;
+    position: absolute;
+    bottom: -500%;
+    width: 23%;
+    height: 120%;
+    right: 62%;
+    padding-top: 1rem;
+  }
+  .Choice22 {
+    font-family: "Recursive", sans-serif;
+    border: none;
+    background-color: #F27A9C;
+    color: #FAD0D9;
+    text-align: center;
+    text-decoration: solid;
+    display: inline-block;
+    font-size: 1rem;
+    cursor: pointer;
+    position: absolute;
+    bottom: -500%;
+    width: 23%;
+    height: 120%;
+    right: 37%;
+    padding-top: 1rem;
+  }
+  .Choice23 {
+    font-family: "Recursive", sans-serif;
+    border: none;
+    background-color: #F27A9C;
+    color: #FAD0D9;
+    text-align: center;
+    text-decoration: solid;
+    display: inline-block;
+    font-size: 1rem;
+    cursor: pointer;
+    position: absolute;
+    bottom: -500%;
+    width: 23%;
+    height: 120%;
+    right: 12%;
+    padding-top: 1rem;
+  }
+  .Choice24 {
+    font-family: "Recursive", sans-serif;
+    border: none;
+    text-align: center;
+    text-decoration: solid;
+    display: inline-block;
+    font-size: 1rem;
+    cursor: pointer;
+    position: absolute;
+   bottom: -10%;
+    width: 100%;
+    height: 100%;
+    right: 0%;
+    padding-top: 1rem;
+  }
+  .Choice25 {
+    font-family: "Recursive", sans-serif;
+    border: none;
+    background-color: #F27A9C;
+    color: #FAD0D9;
+    text-align: center;
+    text-decoration: solid;
+    display: inline-block;
+    font-size: 1rem;
+    cursor: pointer;
+    position: absolute;
+    bottom: -380%;
+    width: 23%;
+    height: 50%;
+    right: 37%;
+    padding-top: 1rem;
+  }
+  .Choice26 {
+    font-family: "Recursive", sans-serif;
+    border: none;
+    background-color: #F27A9C;
+    color: #FAD0D9;
+    text-align: center;
+    text-decoration: solid;
+    display: inline-block;
+    font-size: 1rem;
+    cursor: pointer;
+    position: absolute;
+    bottom: -380%;
+    width: 23%;
+    height: 50%;
+    right: 12%;
+    padding-top: 1rem;
+  }
+  .Choice27 {
+    font-family: "Recursive", sans-serif;
+    border: none;
+    background-color: #F27A9C;
+    color: #FAD0D9;
+    text-align: center;
+    text-decoration: solid;
+    display: inline-block;
+    font-size: 1rem;
+    cursor: pointer;
+    position: absolute;
+    bottom: -380%;
+    width: 23%;
+    height: 50%;
+    right: 62%;
+    padding-top: 1rem;
+  }
+  
+  .Choice28 {
+    font-family: "Recursive", sans-serif;
+    border: none;
+    background-color: #F27A9C;
+    color: #FAD0D9;
+    text-align: center;
+    text-decoration: solid;
+    display: inline-block;
+    font-size: 1rem;
+    cursor: pointer;
+    position: absolute;
+    bottom: -575%;
+    width: 23%;
+    height: 50%;
+    right: 62%;
+    padding-top: 1rem;
+  }
+  .Choice29 {
+    font-family: "Recursive", sans-serif;
+    border: none;
+    background-color: #F27A9C;
+    color: #FAD0D9;
+    text-align: center;
+    text-decoration: solid;
+    display: inline-block;
+    font-size: 1rem;
+    cursor: pointer;
+    position: absolute;
+    bottom: -575%;
+    width: 23%;
+    height: 50%;
+    right: 12%;
+    padding-top: 1rem;
+  }
+  .Choice30 {
+    font-family: "Recursive", sans-serif;
+    border: none;
+    background-color: #F27A9C;
+    color: #FAD0D9;
+    text-align: center;
+    text-decoration: solid;
+    display: inline-block;
+    font-size: 1rem;
+    cursor: pointer;
+    position: absolute;
+    bottom: -420%;
+    width: 23%;
+    height: 50%;
+    right: 12%;
+    padding-top: 1rem;
+  }
+  .Choice31 {
+    font-family: "Recursive", sans-serif;
+    border: none;
+    background-color: #F27A9C;
+    color: #FAD0D9;
+    text-align: center;
+    text-decoration: solid;
+    display: inline-block;
+    font-size: 1rem;
+    cursor: pointer;
+    position: absolute;
+    bottom: -420%;
+    width: 23%;
+    height: 50%;
+    right: 62%;
+    padding-top: 1rem;
+  }
+  .ul1 {
+    color: #5b6186;
+    text-align: center;
+    text-decoration: solid;
+    display: inline-block;
+    font-size: 1rem;
+    cursor: pointer;
+    position: absolute;
+    bottom: -490%;
+    width: 100%;
+    height: 300%;
+    right: -10%;
+    padding-top: 1rem;
+  }
+  .li1{
+      margin-top: 3rem;
+  }
+
+.group {
+  align-items: center;
+  width: 80%;
+  height: 90%;
+}
+
+.symbol {
+  position: absolute;
+  width: 7rem;
+  height: 7rem;
+  margin: 5rem 0 0 10rem;
+}
+.symbol1 {
+  position: absolute;
+  width: 7rem;
+  height: 7rem;
+  margin: -5.5rem 0rem 0rem 43rem;
+}
+.symbol2 {
+  position: absolute;
+  width: 7rem;
+  height: 7rem;
+  margin: 6rem 0 0 7rem;
+}
+.symbol3 {
+  position: absolute;
+  width: 7rem;
+  height: 7rem;
+  margin: 6rem 0rem 0rem 49rem;
+}
+
+
+.text {
+  font-family: "Recursive", sans-serif;
+  position: absolute;
+  top: 140%;
+  left: 4rem;
+  font-size: 1.5rem;
+  text-align: left;
+  color:#B9A9DC;
+}
+.text1 {
+  font-family: "Recursive", sans-serif;
+  position: absolute;
+  top: 10rem;
+  left: 25%;
+  font-size: 2rem;
+  text-align: center;
+  color:#B9A9DC;
+}
+
+.text2 {
+  font-family: "Recursive", sans-serif;
+  position: absolute;
+  top: 130%;
+  left: 4rem;
+  font-size: 1.5rem;
+  text-align: left;
+  color:#B9A9DC;
+}
+.text3{
+  font-family: "Recursive", sans-serif;
+  position: absolute;
+  top: 10rem;
+  left: 33%;
+  font-size: 2rem;
+  text-align: center;
+  color:#B9A9DC;
+}
+.button {
+  border: none;
+  background-color: #F27A9C;
+  color: #FAD0D9;
+  text-decoration: solid;
+  display: inline-block;
+  font-size: 1rem;
+  cursor: pointer;
+  width: 23%;
+  position: absolute;
+  margin-top: 15rem;
+  right: 62%;
+}
+.button:hover {
+  background-color: #F27A9C;
+  color: #FAD0D9;
+}
+.button1 {
+  border: none;
+  background-color: #F27A9C;
+  color: #FAD0D9;
+  text-decoration: solid;
+  display: inline-block;
+  font-size: 1rem;
+  cursor: pointer;
+  width: 23%;
+  right: 37%;
+  position: absolute;
+  margin-top: 15rem;
+}
+.button1:hover {
+  background-color: #F27A9C;
+  color: #FAD0D9;
+}
+
+.button2 {
+  border: none;
+  background-color: #F27A9C;
+  color: #FAD0D9;
+  text-decoration: solid;
+  display: inline-block;
+  font-size: 1rem;
+  cursor: pointer;
+  width: 23%;
+  right: 12%;
+  position: absolute;
+  margin-top: 15rem;
+}
+.button2:hover {
+  background-color: #F27A9C;
+  color: #FAD0D9;
+}
+.button3 {
+    border: none;
+    background-color: #F27A9C;
+    color: #FAD0D9;
+    text-decoration: solid;
+    display: inline-block;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 23%;
+    right: 37%;
+    position: absolute;
+    margin-top: 30rem;
+  }
+  .button3:hover {
+    background-color: #F27A9C;
+    color: #FAD0D9;
+  }
+  
+
+.character {
+  width: 90%;
+  height: 90%;
+}
+.character1 {
+    width: 90%;
+    padding-top: 1rem;
+  }
+
+.footer-copyright {
+  background-color: #F27A9C;
+  color: #FAD0D9;
+  text-align: center;
+  position: sticky !important;
+}
+.footer-copyright1 {
+  background-color: #F27A9C;
+  color: #FAD0D9;
+  text-align: center;
+  position: sticky !important;
+  margin-top: 55rem;
+}
+
+.item {
+  height: 12rem;
+  width: 6rem;
+}
+#footer {
+  position: absolute;
+  bottom: -33rem;
+  width: 100%;
+  height: 2.5rem;
+}
+#footer1 {
+  position: absolute;
+  bottom: -33rem;
+  width: 100%;
+  height: 2.5rem;
+}
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+#content-wrap {
+  padding-bottom: -2.5rem;
+}
+a {
+  color: #FAD0D9;
+}
+a:hover {
+  color: #FAD0D9;;
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 1200px) {
+  .col-lg-1 {
+    width: 10%;
+  }
+  .col-lg-2 {
+    width: 20%;
+  }
+  .col-lg-3 {
+    width: 30%;
+  }
+  .col-lg-5 {
+    width: 40%;
+  }
+  .col-lg-6 {
+    width: 50%;
+  }
+  .col-lg-7 {
+    width: 60%;
+  }
+
+  .col-lg-9 {
+    width: 70%;
+  }
+  .col-lg-10 {
+    width: 80%;
+  }
+  .col-lg-11 {
+    width: 90%;
+  }
+  .col-lg-12 {
+    width: 100%;
+  }
+}
+@media (min-width: 990px) and (max-width: 1199px) {
+  .col-md-1 {
+    width: 10%;
+  }
+  .col-md-2 {
+    width: 20%;
+  }
+  .col-md-3 {
+    width: 30%;
+  }
+  .col-md-4 {
+    width: 40%;
+  }
+  .col-md-5 {
+    width: 50%;
+  }
+  .col-md-6 {
+    width: 60%;
+  }
+  .col-md-7 {
+    width: 70%;
+  }
+
+  .col-md-9 {
+    width: 85%;
+  }
+  .col-md-10 {
+    width: 80%;
+  }
+  .col-md-11 {
+    width: 90%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+  .pillar1 {
+    visibility: hidden;
+  }
+}
+@media only screen and (max-width: 989px) {
+  .pillar {
+    visibility: hidden;
+  }
+  .pillar1 {
+    visibility: hidden;
+  }
+  .col-sm-1 {
+    width: 10%;
+  }
+  .col-sm-2 {
+    width: 20%;
+  }
+  .col-sm-3 {
+    width: 30%;
+  }
+  .col-sm-4 {
+    width: 40%;
+  }
+  .col-sm-5 {
+    width: 50%;
+  }
+  .col-sm-6 {
+    width: 60%;
+  }
+  .col-sm-7 {
+    width: 70%;
+  }
+
+  .col-sm-9 {
+    width: 85%;
+  }
+  .col-sm-10 {
+    width: 80%;
+  }
+  .col-sm-11 {
+    width: 90%;
+  }
+  .col-sm-12 {
+    width: 100%;
+  }
+}
